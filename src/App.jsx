@@ -15,7 +15,7 @@ function App() {
   
         <Routes>
           <Route exact path="/" element={<Header />}>
-            <Route path="allpost" element={<AllList />} />
+            <Route path="allposts" element={<AllList />} />
             <Route path="create" element={<Create />} />
             <Route path="update/:id" element={<Update />} />
           </Route>
